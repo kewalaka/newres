@@ -1,5 +1,15 @@
 # `newres` - Terraform Resource Generation Tool
 
+## Random build notes
+
+```bash
+go get -u
+# update go.mod with the required schema version - e.g. 3.9.2 for AzureRM
+go build github.com/lonegunmanb/newres/v3
+# then use the new version of newres!
+./newres -dir . -r azurerm_dev_center_gallery -u 
+```
+
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/lonegunmanb/newres/build.yml)
 
 `newres` is a command-line tool that generates Terraform configuration files for a specified resource type. It automates the process of creating variables.tf and main.tf files, making it easier to get started with Terraform and reducing the time spent on manual configuration.
@@ -11,6 +21,7 @@ Supports multiple Terraform providers, including AWS, Azure, Google Cloud Platfo
 Generates `variables.tf` and `main.tf` files based on the specified resource type.
 
 Supports two different generation modes: `UniVariable` and `MultipleVariables`:
+
 * `MultipleVariables` (default): Generates separate variable blocks for each attribute and nested block of the resource.
 * `UniVariable`: Generates a single variable block for the entire resource with nested blocks as attributes.
 
@@ -98,7 +109,7 @@ After running the command, you should find `variables.tf` and `main.tf` files in
 
 ### Sometimes optional attributes might be required
 
-`newres` has a known limitation when dealing with certain nested blocks in the Terraform plugin SDK. In some cases, a nested block may be marked as an attribute instead of a nested block, as shown in this example: https://github.com/hashicorp/terraform-provider-azurerm/blob/v3.62.1/internal/services/recoveryservices/site_recovery_replicated_vm_resource.go#L182-L187.
+`newres` has a known limitation when dealing with certain nested blocks in the Terraform plugin SDK. In some cases, a nested block may be marked as an attribute instead of a nested block, as shown in this example: <https://github.com/hashicorp/terraform-provider-azurerm/blob/v3.62.1/internal/services/recoveryservices/site_recovery_replicated_vm_resource.go#L182-L187>.
 
 When this occurs, the JSON schema returned by the Terraform CLI will treat these nested blocks as attributes, and `newres` will try to restore these "attributes" back to nested blocks. Consequently, all attributes inside these affected nested blocks will be marked as required in the generated configuration, as the corresponding schema information is lost in the process.
 
@@ -123,6 +134,7 @@ Even `var.kubernetes_cluster_default_node_pool` is a required object, that's bec
 # Supported Providers and Documentation Limitations
 
 `newres` currently supports variable block description generation for the following providers:
+
 * Alicloud (`alicloud`)
 * AWS (`aws`)
 * AWS Cloud Control API (`awscc`)

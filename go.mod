@@ -9,23 +9,24 @@ require (
 	github.com/hashicorp/hcl/v2 v2.19.1
 	github.com/hashicorp/terraform-config-inspect v0.0.0-20230614215431-f32df32a01cd
 	github.com/hashicorp/terraform-json v0.21.0
-	github.com/lonegunmanb/avmfix v0.0.0-20231128020602-60bf6999b54a
+	github.com/lonegunmanb/avmfix v0.0.0-20240206003455-e1a28487733b
+	github.com/lonegunmanb/newres/v3 v3.0.0-20240206003647-783cc6b5b46a
 	github.com/lonegunmanb/terraform-alicloud-schema v1.217.0
 	github.com/lonegunmanb/terraform-aws-schema/v2 v2.70.4
 	github.com/lonegunmanb/terraform-aws-schema/v3 v3.76.1
 	github.com/lonegunmanb/terraform-aws-schema/v4 v4.67.0
-	github.com/lonegunmanb/terraform-aws-schema/v5 v5.35.0
-	github.com/lonegunmanb/terraform-awscc-schema v0.69.0
+	github.com/lonegunmanb/terraform-aws-schema/v5 v5.37.0
+	github.com/lonegunmanb/terraform-awscc-schema v0.70.0
 	github.com/lonegunmanb/terraform-azapi-schema v1.12.0
 	github.com/lonegunmanb/terraform-azuread-schema/v2 v2.47.0
 	github.com/lonegunmanb/terraform-azurerm-schema/v2 v2.99.0
-	github.com/lonegunmanb/terraform-azurerm-schema/v3 v3.90.0
+	github.com/lonegunmanb/terraform-azurerm-schema/v3 v3.92.0
 	github.com/lonegunmanb/terraform-bytebase-schema v0.0.9
 	github.com/lonegunmanb/terraform-google-schema/v2 v2.20.3
 	github.com/lonegunmanb/terraform-google-schema/v3 v3.90.1
 	github.com/lonegunmanb/terraform-google-schema/v4 v4.84.0
 	github.com/lonegunmanb/terraform-helm-schema/v2 v2.12.1
-	github.com/lonegunmanb/terraform-kubernetes-schema/v2 v2.25.2
+	github.com/lonegunmanb/terraform-kubernetes-schema/v2 v2.26.0
 	github.com/lonegunmanb/terraform-local-schema/v2 v2.4.1
 	github.com/lonegunmanb/terraform-null-schema/v3 v3.2.2
 	github.com/lonegunmanb/terraform-random-schema/v3 v3.6.0

@@ -2,6 +2,7 @@ github.com/agext/levenshtein v1.2.3 h1:YB2fHEn0UJagG8T1rrWknE3ZQzWM06O8AMAatNn7l
 github.com/agext/levenshtein v1.2.3/go.mod h1:JEDfjyjHDjOF/1e4FlBE/PkbqA9OfWu2ki2W0IB5558=
 github.com/ahmetb/go-linq/v3 v3.2.0 h1:BEuMfp+b59io8g5wYzNoFe9pWPalRklhlhbiU3hYZDE=
 github.com/ahmetb/go-linq/v3 v3.2.0/go.mod h1:haQ3JfOeWK8HpVxMtHHEMPVgBKiYyQ+f1/kLZh/cj9U=
+github.com/apparentlymart/go-textseg v1.0.0 h1:rRmlIsPEEhUTIKQb7T++Nz/A5Q6C9IuX2wFoYVvnCs0=
 github.com/apparentlymart/go-textseg/v15 v15.0.0 h1:uYvfpb3DyLSCGWnctWKGj857c6ew1u1fNQOlOtuGxQY=
 github.com/apparentlymart/go-textseg/v15 v15.0.0/go.mod h1:K8XmNZdhEBkdlyDdvbmmsvpAG721bKi0joRfFdHIWJ4=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
@@ -28,6 +29,10 @@ github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0
 github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=
 github.com/lonegunmanb/avmfix v0.0.0-20231128020602-60bf6999b54a h1:4Yuu2fvtchwMZjgAfl653ZlRBipgWYg0a94FJJsehAw=
 github.com/lonegunmanb/avmfix v0.0.0-20231128020602-60bf6999b54a/go.mod h1:NbseVfBsCJrpAPGS2JoHRMLE9xYAWNaoH2BO3wpw3jk=
+github.com/lonegunmanb/avmfix v0.0.0-20240206003455-e1a28487733b h1:hTuDLSUPeeqmy3xtPQI+f8+jGcJx+2l4q4bS9Qt6gg0=
+github.com/lonegunmanb/avmfix v0.0.0-20240206003455-e1a28487733b/go.mod h1:fc4Bk2hCuhQdslHz1z8Zut1esTJPFXR6KXks/hII10k=
+github.com/lonegunmanb/newres/v3 v3.0.0-20240206003647-783cc6b5b46a h1:dimF7xJG82m8IHjmV1KM8lJJKkoNjKjzIsS6Ytq0Ovs=
+github.com/lonegunmanb/newres/v3 v3.0.0-20240206003647-783cc6b5b46a/go.mod h1:DbKjdcQ8Y/WTHUAqISFrorsawdExJShLhkGEDBzVTB8=
 github.com/lonegunmanb/terraform-alicloud-schema v1.217.0 h1:6hLB8hpTywuWdILBgpY9O7bzHe4xlvQS1WHVRsTl2OI=
 github.com/lonegunmanb/terraform-alicloud-schema v1.217.0/go.mod h1:rzTAO0rKWoNXSGkfq0SMFtAgVKu6SS5JF67udeoEYP4=
 github.com/lonegunmanb/terraform-aws-schema/v2 v2.70.4 h1:8rQuBaw9uotjblsgrJUABSnBPjVetMYm+5SwTt+QI5c=
@@ -38,8 +43,12 @@ github.com/lonegunmanb/terraform-aws-schema/v4 v4.67.0 h1:ssy4uMEFjijkxORGG+SyU3
 github.com/lonegunmanb/terraform-aws-schema/v4 v4.67.0/go.mod h1:QXLvpWSz5rNGenKQtdHpOlOh7cAet2BOgBXMjqoGYy4=
 github.com/lonegunmanb/terraform-aws-schema/v5 v5.35.0 h1:uBoDAE9Qu4YH+Lt4migutFYtvG29iFHIRJPqr1QjrV0=
 github.com/lonegunmanb/terraform-aws-schema/v5 v5.35.0/go.mod h1:N20UNeUeOc621cfzdF/gDbJTnsCyJiz4TTmJVACARD8=
+github.com/lonegunmanb/terraform-aws-schema/v5 v5.37.0 h1:HVEjkxl6fkK3BNPeobqXPnlkl0qoh4oIBMPaQjRZrAk=
+github.com/lonegunmanb/terraform-aws-schema/v5 v5.37.0/go.mod h1:N20UNeUeOc621cfzdF/gDbJTnsCyJiz4TTmJVACARD8=
 github.com/lonegunmanb/terraform-awscc-schema v0.69.0 h1:NPVNGbraw9D5GIEfy2GLeT4GAwZou++IK3trq8nDU+Y=
 github.com/lonegunmanb/terraform-awscc-schema v0.69.0/go.mod h1:NQ9PxyrNUSyQ5baMSOIWUA9qCn6lVJ1jQHPjkixReiM=
+github.com/lonegunmanb/terraform-awscc-schema v0.70.0 h1:EgYb0PNk4M25xJzWqhmqx57zfAv3/cEHCESMERrQWss=
+github.com/lonegunmanb/terraform-awscc-schema v0.70.0/go.mod h1:NQ9PxyrNUSyQ5baMSOIWUA9qCn6lVJ1jQHPjkixReiM=
 github.com/lonegunmanb/terraform-azapi-schema v1.12.0 h1:QRnD5loV0OBsiIGUHhbkvxYfxfIxIF7UqugsiGmFuAQ=
 github.com/lonegunmanb/terraform-azapi-schema v1.12.0/go.mod h1:dXqtb62kwBkb0kn2Avhtga2+UsNQWu2FpYSBKB5+DOM=
 github.com/lonegunmanb/terraform-azuread-schema/v2 v2.47.0 h1:1ZNqSiNgh8Zb8oEDvhC7hK8GgUzKo03dwOx2cgeke4o=
@@ -48,6 +57,8 @@ github.com/lonegunmanb/terraform-azurerm-schema/v2 v2.99.0 h1:G5IJgiWe6npIViTDey
 github.com/lonegunmanb/terraform-azurerm-schema/v2 v2.99.0/go.mod h1:k9mRJlwqithRQfRMzWfsLuWknIAx4sUAuQeW0kRId88=
 github.com/lonegunmanb/terraform-azurerm-schema/v3 v3.90.0 h1:9ybJLrRX/lfpMETrxZL7lGyZdXvcmFXQ/IGJl4oCAqY=
 github.com/lonegunmanb/terraform-azurerm-schema/v3 v3.90.0/go.mod h1:dc6R6RbFfMgpYGYQs/uT+u5j+L5+1NzABjmrrtrQ6nI=
+github.com/lonegunmanb/terraform-azurerm-schema/v3 v3.92.0 h1:7UoEikUCma8H03j94luXnKzPqCBax0RJ3Les5NJa/AU=
+github.com/lonegunmanb/terraform-azurerm-schema/v3 v3.92.0/go.mod h1:dc6R6RbFfMgpYGYQs/uT+u5j+L5+1NzABjmrrtrQ6nI=
 github.com/lonegunmanb/terraform-bytebase-schema v0.0.9 h1:VnwghcbQLnherQCRHnlaqS+UhBDirGkFDZ5lv1coqjQ=
 github.com/lonegunmanb/terraform-bytebase-schema v0.0.9/go.mod h1:QGwRX3GwqSDyd5r+2Q2qXtLLKzcGlAN7Y8eDdAcg4Lc=
 github.com/lonegunmanb/terraform-google-schema/v2 v2.20.3 h1:2iS6Kb7Fnjt0XnD0BbFD/LxHt1WO3tXI6PFVclmHVLg=
@@ -60,6 +71,8 @@ github.com/lonegunmanb/terraform-helm-schema/v2 v2.12.1 h1:fa4n2wZcuxCnDHebJ3tJO
 github.com/lonegunmanb/terraform-helm-schema/v2 v2.12.1/go.mod h1:omWDA6tlgFdZaYcRNcDQBQBbUKpKCeEpkVcQkXV8zjk=
 github.com/lonegunmanb/terraform-kubernetes-schema/v2 v2.25.2 h1:WLJ3bF2cGcOwt2VNC3VRH2u8/UAjkUUR+5ScI1BlS7o=
 github.com/lonegunmanb/terraform-kubernetes-schema/v2 v2.25.2/go.mod h1:4MWSasV5COazdxXGDdxJsTZ/08R8XMSN0mMFGyT4GqY=
+github.com/lonegunmanb/terraform-kubernetes-schema/v2 v2.26.0 h1:GHrvkb0X8xyqKW/FwNs8VtCTMDMhWSkcYkk47LwCbUY=
+github.com/lonegunmanb/terraform-kubernetes-schema/v2 v2.26.0/go.mod h1:CR8+YIN5dkmxihccwIoha3yOnjK+i+yf2AMQnaMW+C0=
 github.com/lonegunmanb/terraform-local-schema/v2 v2.4.1 h1:xT2nnFYq7ZElR/fVTnzZiYChp2jlJ0j/ujWtXijLdfc=
 github.com/lonegunmanb/terraform-local-schema/v2 v2.4.1/go.mod h1:JQM3pBWh/QkX9q8TE5+JYU4Wl27n9ywJcE3F6uwr92o=
 github.com/lonegunmanb/terraform-modtm-schema v0.2.0 h1:V8a1rliQYPM6jkCyVh+m+MrXUAjp7fNp5Sh3FKL0CG0=
